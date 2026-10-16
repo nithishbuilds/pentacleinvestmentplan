@@ -9,6 +9,7 @@ Static website for **pentaclefranchise.com**, ready to deploy on **Vercel**.
 | `robots.txt` | Allows Google to index the site |
 | `sitemap.xml` | Helps Google find the site |
 | `vercel.json` | Vercel settings (security headers, caching) |
+| `docs/` | Downloadable documents: franchise agreement (PDF + Word) and GST certificate (PDF) |
 
 No build step, no `package.json`, no installs needed.
 
@@ -51,5 +52,6 @@ Open `index.html` and find the **SETTINGS** block near the top of the script:
 - `sendTo` — where Apply / Contact details are sent (WhatsApp +91 99526 42243, ragavendraragul12@gmail.com)
 - `formEndpoint` — optional Formspree / Web3Forms link to receive applications automatically by email
 - `productsSite` — link used on the Products page
+- `documents` — the download list. To replace a document, upload a new file to `docs/` with the same name.
 
 Page links: `/#/franchise-investment-plan`, `/#/apply`, `/#/contact`, `/#/manufacturing-infrastructure` …
